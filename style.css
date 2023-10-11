@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Josefin+Sans:wght@300;400&family=Lobster+Two&family=Satisfy&family=Tangerine:wght@700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -8,36 +10,62 @@
 body {
     height: 100vh;
     width: 100vw;
+
+    
 }
 
 .navBar{
     width: 100%;
     height: 50px;
    
-    background-color: red;
+    background-color: rgb(18, 12, 71);
+    
 }
 
 .logo{
-    width: 100%;
-    height: 80px;
-
-}
-
-.logo, img{
-    width: 50%;
+    width: 50px;
     height: 50px;
-    /* margin: 0 auto;
-    padding-left: 0; */
 }
 
-.navBar, .navlist , li{
+ img{
+    width: 100%;
+    height: 100%;
     
+}
+
+.navBar , .navlist , li{
+    color: aqua;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    gap: 12px;
+
     padding: 5px;
 
+}
+
+.main{
+    height: 80%;
+    width: 100%;
+}
+
+
+.bckgrnd_img ,img{
+
+    background-image: url("https://img.freepik.com/premium-photo/abstract-geometric-neon-blue-background-generative-ai_667511-2010.jpg");
+    width: 100%;
+    height: 50%;
+
+    object-fit: contain;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
 
-    color: goldenrod;
-
-}
+    color: white;
+    /* font-size: 20px; */
+    /* gap: 20px; */
+    
+} 
