@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Josefin+Sans:wght@300;400&family=Lobster+Two&family=Satisfy&family=Tangerine:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Josefin+Sans:wght@300;400&family=Lobster+Two&family=Satisfy&family=Tangerine:wght@700&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -51,11 +51,11 @@ body {
 }
 
 
-.bckgrnd_img ,img{
+.bckgrnd_img{
 
     background-image: url("https://img.freepik.com/premium-photo/abstract-geometric-neon-blue-background-generative-ai_667511-2010.jpg");
     width: 100%;
-    height: 50%;
+    height: 40%;
 
     object-fit: contain;
     display: flex;
@@ -69,3 +69,35 @@ body {
     /* gap: 20px; */
     
 } 
+
+.photo{
+    width: 100%;
+    height: 40%;
+
+   display: grid;
+   grid-template-columns: repeat(3 ,fr);
+   grid-template-rows: repeat(2, 1fr);
+
+   font-family: 'Dancing Script', cursive;
+
+}
+
+.photo .about {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 20px;
+}
+
+.aboutContent{
+
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+    margin: 40px;
+    text-align: justify;
+
+    
+
+
+
+}
